@@ -15,6 +15,8 @@
 		92A2B5091CE6745A002061D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A2B5071CE6745A002061D4 /* LaunchScreen.storyboard */; };
 		92A2B5141CE6745A002061D4 /* FbTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2B5131CE6745A002061D4 /* FbTestTests.swift */; };
 		92A2B51F1CE6745A002061D4 /* FbTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2B51E1CE6745A002061D4 /* FbTestUITests.swift */; };
+		92A2B5321CE67987002061D4 /* ObjectiveCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A2B5311CE67987002061D4 /* ObjectiveCFile.m */; };
+		B810948830DBC8EEA624BEB7 /* libPods-FbTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F755403C8379C61808F447 /* libPods-FbTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28F755403C8379C61808F447 /* libPods-FbTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FbTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE7715510A7675B85F20BD /* Pods-FbTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FbTest/Pods-FbTest.release.xcconfig"; sourceTree = "<group>"; };
 		92A2B4F81CE6745A002061D4 /* FbTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FbTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A2B4FB1CE6745A002061D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A2B4FD1CE6745A002061D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		92A2B51A1CE6745A002061D4 /* FbTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FbTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A2B51E1CE6745A002061D4 /* FbTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FbTestUITests.swift; sourceTree = "<group>"; };
 		92A2B5201CE6745A002061D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A2B52C1CE677A9002061D4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		92A2B52D1CE677A9002061D4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		92A2B5301CE67986002061D4 /* FbTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FbTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		92A2B5311CE67987002061D4 /* ObjectiveCFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCFile.m; sourceTree = "<group>"; };
+		92A2B5331CE67A34002061D4 /* ObjectiveCFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCFile.h; sourceTree = "<group>"; };
+		EBEB240ACF2F42EA1B311EFB /* Pods-FbTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FbTest/Pods-FbTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B810948830DBC8EEA624BEB7 /* libPods-FbTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,8 @@
 				92A2B5121CE6745A002061D4 /* FbTestTests */,
 				92A2B51D1CE6745A002061D4 /* FbTestUITests */,
 				92A2B4F91CE6745A002061D4 /* Products */,
+				A61F4E0170FB56FF208D9886 /* Pods */,
+				D9A71170996F48289806EE18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +119,9 @@
 				92A2B5071CE6745A002061D4 /* LaunchScreen.storyboard */,
 				92A2B50A1CE6745A002061D4 /* Info.plist */,
 				92A2B5021CE6745A002061D4 /* FbTest.xcdatamodeld */,
+				92A2B5311CE67987002061D4 /* ObjectiveCFile.m */,
+				92A2B5301CE67986002061D4 /* FbTest-Bridging-Header.h */,
+				92A2B5331CE67A34002061D4 /* ObjectiveCFile.h */,
 			);
 			path = FbTest;
 			sourceTree = "<group>";
@@ -128,6 +144,25 @@
 			path = FbTestUITests;
 			sourceTree = "<group>";
 		};
+		A61F4E0170FB56FF208D9886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBEB240ACF2F42EA1B311EFB /* Pods-FbTest.debug.xcconfig */,
+				49CE7715510A7675B85F20BD /* Pods-FbTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9A71170996F48289806EE18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A2B52C1CE677A9002061D4 /* FBSDKCoreKit.framework */,
+				92A2B52D1CE677A9002061D4 /* FBSDKLoginKit.framework */,
+				28F755403C8379C61808F447 /* libPods-FbTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92A2B5231CE6745A002061D4 /* Build configuration list for PBXNativeTarget "FbTest" */;
 			buildPhases = (
+				61246B5AD4E46187F5BEF457 /* Check Pods Manifest.lock */,
 				92A2B4F41CE6745A002061D4 /* Sources */,
 				92A2B4F51CE6745A002061D4 /* Frameworks */,
 				92A2B4F61CE6745A002061D4 /* Resources */,
+				B0F157A3446D867A050810E9 /* Embed Pods Frameworks */,
+				88022FAE44F1886C91297EB1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +292,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61246B5AD4E46187F5BEF457 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88022FAE44F1886C91297EB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FbTest/Pods-FbTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F157A3446D867A050810E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FbTest/Pods-FbTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92A2B4F41CE6745A002061D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				92A2B5041CE6745A002061D4 /* FbTest.xcdatamodeld in Sources */,
+				92A2B5321CE67987002061D4 /* ObjectiveCFile.m in Sources */,
 				92A2B4FE1CE6745A002061D4 /* ViewController.swift in Sources */,
 				92A2B4FC1CE6745A002061D4 /* AppDelegate.swift in Sources */,
 			);
@@ -403,23 +490,38 @@
 		};
 		92A2B5241CE6745A002061D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEB240ACF2F42EA1B311EFB /* Pods-FbTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FbTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kone.ios.FbTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FbTest/FbTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		92A2B5251CE6745A002061D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CE7715510A7675B85F20BD /* Pods-FbTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FbTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kone.ios.FbTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FbTest/FbTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +590,7 @@
 				92A2B5251CE6745A002061D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92A2B5261CE6745A002061D4 /* Build configuration list for PBXNativeTarget "FbTestTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +599,7 @@
 				92A2B5281CE6745A002061D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92A2B5291CE6745A002061D4 /* Build configuration list for PBXNativeTarget "FbTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +608,7 @@
 				92A2B52B1CE6745A002061D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
